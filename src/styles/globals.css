@@ -1,0 +1,238 @@
+@font-face {
+  font-family: dinPro;
+  src: url(/public/fonts/dinProLight.ttf);
+  src: url(/public/fonts/dinPro.ttf);
+  src: url(/public/fonts/dinProMedium.ttf);
+  src: url(/public/fonts/dinProBold.ttf);
+  src: url(/public/fonts/dinProBlack.ttf);
+}
+
+@font-face {
+  font-family: notoSansThai;
+  src: url(/public/fonts/notoSansThai.ttf);
+}
+
+.notoBody01 {
+  font-family: "Noto Sans Thai";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.notoBody02 {
+  font-family: "Noto Sans Thai";
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.notoBody03 {
+  font-family: "Noto Sans Thai";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.notoBody04 {
+  font-family: "Noto Sans Thai";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.dinProH1 {
+  font-family: dinPro;
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+}
+
+.dinProH2 {
+  font-family: dinPro;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.dinProH3 {
+  font-family: dinPro;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.dinProH4 {
+  font-family: dinPro;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.dinProH5 {
+  font-family: dinPro;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.dinProH6 {
+  font-family: dinPro;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.dinProButtonL {
+  font-family: dinPro;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.dinProButtonM {
+  font-family: dinPro;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.dinProTabHeading {
+  font-family: dinPro;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.dinProOverLine {
+  font-family: dinPro;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.dinProOverLineS {
+  font-family: dinPro;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.dinProHyperlinkMobile {
+  font-family: dinPro;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.dinProButtonTextS {
+  font-family: dinPro;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.dinProButtonTextSUnselected {
+  font-family: dinPro;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.dinProButtonTextSSelected {
+  font-family: dinPro;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.dinProDetailTextS {
+  font-family: dinPro;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.dinProOverLineXS {
+  font-family: dinPro;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.main-background {
+  background-image: url('../../public/images/smart_learning_by_seac.png');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.delay {
+  transition-duration: 1s;
+}
+
+.delay2s {
+  transition-duration: 2s;
+}
+
+.delay3s {
+  transition-duration: 3s;
+}
+
+.delay4s {
+  transition-duration: 4s;
+}
+
+.delay5s {
+  transition-duration: 5s;
+}
+
+.delay6s {
+  transition-duration: 6s;
+}

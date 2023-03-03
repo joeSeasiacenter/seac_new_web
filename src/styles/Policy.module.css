@@ -1,0 +1,16 @@
+.section1 {
+    display: block;
+    min-height: 480px;
+    background-image: url("../../public/images/term_of_use.png");
+    background-size: cover;
+    background-position: center top;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .section2 {
+      display: block;
+  }
+  
