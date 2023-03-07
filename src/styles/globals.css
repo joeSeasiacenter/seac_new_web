@@ -207,6 +207,11 @@
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 50;
+}
+
+.content {
+  padding-left: 70vh;
 }
 
 .sticky + .content {
