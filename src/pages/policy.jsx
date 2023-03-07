@@ -36,13 +36,19 @@ export default function Policy() {
     var header = document.getElementById('myMenubar')
     var content = document.getElementById('content')
     var sticky = header.offsetTop
+    var footer = document.body.scrollHeight
 
     function myFunction() {
-      if (window.pageYOffset > sticky) {
+      if (window.pageYOffset > sticky && window.scrollY + window.innerHeight <= footer) {
         header.classList.add('sticky')
         content.classList.remove('col-span-2')
         content.classList.add('col-span-3')
         content.classList.add('content')
+      } else if (window.scrollY + window.innerHeight >= footer) {
+        header.classList.remove('sticky')
+        content.classList.remove('col-span-3')
+        content.classList.remove('content')
+        content.classList.add('col-span-2')
       } else {
         header.classList.remove('sticky')
         content.classList.remove('col-span-3')
