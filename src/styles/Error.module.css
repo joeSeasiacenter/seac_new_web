@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../../public/images/error_404.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.h1 {
+    font-family: dinPro;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 193.2px;
+}
+
+.h2 {
+    font-family: dinPro;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 124.1px;
+}
+
+.h4 {
+    margin-top: 24px;
+    font-family: dinPro;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
